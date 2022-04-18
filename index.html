@@ -10,49 +10,9 @@
     <meta name="description" content="Store front for the Bethany's Pie Shop">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
     <style>
-        body {
-            margin-top: 0px;
-            margin-left: auto;
-            margin-right: auto;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #e6e5d9;
-            text-align: justify;
-            background-image: url('images/pattern.png');
-        }
 
-        #mainheader {
-            background-color: #a593c2;
-        }
-
-        nav {
-            height: 60px;
-            width: 1000px;
-            margin: 0 auto 20px;
-        }
-
-        #leftmenu {
-            float: left;
-            width: 30%;
-            margin-bottom: 20px;
-        }
-
-        .searchbox {
-            padding: 5px;
-            margin: 10px 10px;
-            width: 200px;
-        }
-
-        #main {
-            float: right;
-            width: 70%;
-            margin-bottom: 20px;
-        }
-
-        footer {
-            clear: both;
-            width: 100%;
-        }
     </style>
 </head>
 
@@ -61,7 +21,11 @@
     <header id="mainheader">
 
         <nav>
-            <img src="images/cake.svg" ; width="60px" ; height="55px" />
+            <ul>
+                <li><img src="images/cake.svg" ; width="60px" ; height="55px" /></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pieoverview.html">All items</a></li>
+            </ul>
         </nav>
 
     </header>
@@ -73,10 +37,10 @@
                 <h4 style="text-align: center;">Browse our pies</h4>
             </header>
             <ul>
-                <li><a href="pieoverview.html"; target="_blank">All Items</a></li>
-                <li><a href="fruitpies.html"; target="_blank">Fruit Pies</a></li>
-                <li><a href="cheesecakes.html"; target="_blank">Cheesecakes</a></li>
-                <li><a href="seasonalpies.html"; target="_blank">Seasonal Pies</a></li>
+                <li><a href="pieoverview.html" ; target="_blank">All Items</a></li>
+                <li><a href="fruitpies.html" ; target="_blank">Fruit Pies</a></li>
+                <li><a href="cheesecakes.html" ; target="_blank">Cheesecakes</a></li>
+                <li><a href="seasonalpies.html" ; target="_blank">Seasonal Pies</a></li>
                 <li><a href="#promos">Our promotions</a></li>
             </ul>
             <input type="search" ; class="searchbox" ; placeholder="Search our store" />
@@ -130,7 +94,11 @@
             <address>Bethany's Pie Shop, Bakers Street, Belgium</address>
             </p>
             <small>2020 Bethany's Pie Shop&reg; &trade; - All rights reserved</small>
-        </footer>
+            <p>
+                <small>Created by Karthik <br>
+                Contact us via <a href="mailto:karthikm300796@gmail.com">email</a></small> 
+            </p>
+        </footer>   
 
     </div>
 
